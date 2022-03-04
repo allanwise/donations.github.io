@@ -1,0 +1,59 @@
+@font-face {
+ font-family: blue;
+ src: url(productsansbold.ttf);
+}
+body {
+    text-align: center;
+    color: blue;
+    background: #111A21;
+    align-items: center;
+    font-family: blue;
+}
+.card{
+ margin-top: 30px;
+ height: 450px;
+ width: 350px;
+ padding-left: 12px;
+ padding-right: 12px;
+ backdrop-filter: blur(12px) saturate(125%);
+ -webkit-backdrop-filter: blur(25px) saturate(125%);
+ background-color: rgba(17, 25, 40, 0.57);
+ border-radius: 12px;
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.card-1{
+ width: 150px;
+ height: 200px;
+ padding-top: 12px;
+margin-left: 12px;
+margin-right: 12px;
+ backdrop-filter: blur(12px) saturate(125%);
+ -webkit-backdrop-filter: blur(25px) saturate(125%);
+ background-color: rgba(17, 25, 40, 0.57);
+ border-radius: 6px;
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.payments{
+ display: flex;
+ justify-content: center;
+}
+.card-2{
+ margin-top: 20px;
+ width: 80px;
+ backdrop-filter: blur(12px) saturate(125%);
+ -webkit-backdrop-filter: blur(25px) saturate(125%);
+ background-color: rgba(17, 25, 40, 0.57);
+ border-radius: 6px;
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+p{
+ color: #777;
+}
+span2{
+ padding-left: 8px;
+ padding-right: 8px;
+ font-weight: 200;
+}
+.footer{
+ display: flex;
+}
